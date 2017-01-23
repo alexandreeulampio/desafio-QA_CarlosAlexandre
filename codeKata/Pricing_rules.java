@@ -48,6 +48,7 @@ public class Pricing_rules {
 	public boolean isSpecialPrice() {
 	    return hasDesconto;
 	}
+	
 		
 	public String getProduct() {
 	    return product;
