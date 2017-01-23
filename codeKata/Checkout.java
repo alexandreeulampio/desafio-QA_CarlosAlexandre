@@ -8,7 +8,6 @@ public class Checkout {
 	private HashMap<String, Integer> items = new HashMap<>();
 	
 	public Checkout(List<Pricing_rules> checkoutRules) {
-
         for (Pricing_rules productRule : checkoutRules) {
         	rules.put(productRule.getProduct(), productRule);
 		}
